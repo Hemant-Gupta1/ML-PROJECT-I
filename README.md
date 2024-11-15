@@ -5,13 +5,13 @@
 - [Technologies Used](#technologies-used)
 - [Dataset Description](#dataset-description)
 - [Installation](#installation)
-- [Usage](#usage)
+
 - [Data Preprocessing](#data-preprocessing)
 - [Model Selection and Evaluation](#model-selection-and-evaluation)
 - [Results](#results)
-- [Future Work](#future-work)
+
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 The Employee Exit Prediction Model aims to predict whether an employee will leave the company based on various features such as demographics, job satisfaction, and performance metrics. This project utilizes machine learning techniques to analyze employee data and provide insights that can help organizations improve retention strategies.
@@ -43,19 +43,7 @@ To run this project, you need to have Python installed on your machine. You can 
 pip install pandas numpy scikit-learn xgboost seaborn matplotlib joblib
 
 
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
 
-2. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-3. Run the notebook cells sequentially to preprocess the data, train the model, and make predictions.
 
 ## Data Preprocessing
 The data preprocessing steps include:
@@ -85,13 +73,9 @@ Grid Search was used to find the best hyperparameters for each model based on th
 ## Results
 The best model was saved as `best_model.joblib`. The results of the model evaluation, including the best parameters and scores for each model, are printed in the notebook.
 
-## Future Work
-- Explore additional features that could improve model performance.
-- Implement more advanced models such as neural networks.
-- Conduct a deeper analysis of feature importance to understand the factors influencing employee exit.
+
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
